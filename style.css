@@ -6,6 +6,9 @@ body{
 .colorwi{
     color: white;
 }
+.color2{
+    color: rgba(255, 255, 255, 0.5);
+}
 /* header=style */
 .nevber{
     display: flex;
@@ -34,4 +37,68 @@ body{
     background-color:rgba(230, 83, 60, 1) ;
     border: none;
     justify-content: center;
+}
+/* joins-style */
+.joins{
+    display: flex;
+    justify-content: space-around;
+    /* box-shadow:10px 10px white; */
+}
+.dis-title{
+    font-size: 4.875rem;
+}
+.dis-dis{
+    font-size: 1rem;
+}
+.join-dis{
+    gap: 28px;
+}
+.join{
+    border-radius: 42px;
+    border: none;
+    background-color: rgba(230, 83, 60, 1);
+     width: 224px;
+    height: 54px;
+    color: white;
+}
+.app{
+    border-radius: 42px;
+    border: solid 1px white;
+    background-color: black;
+    color: white;
+    width: 224px;
+    height: 54px; 
+}
+
+.dis-button{
+    gap: 14px;
+    display: flex;
+    justify-content: space-around;
+}
+#video{
+    width: 209px;
+    height: 96px;
+    border-radius: 12px;
+    border: none;
+    background-color:rgba(255, 255, 255, 0.1) ;
+     margin-top: -163px; 
+    margin-right: -268px;
+    margin-left: -123px;
+   
+    
+  
+}
+.join-pic{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+.free{
+    width: 193px;
+    height: 98px;
+    border-radius: 12px;
+    border: none;
+    background-color:rgba(255, 255, 255, 0.1) ;
+    margin-top: -457px;
+    margin-left: 230px;
+    
 }
