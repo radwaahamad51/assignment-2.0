@@ -9,6 +9,9 @@ body{
 .color2{
     color: rgba(255, 255, 255, 0.5);
 }
+.img-round{
+    border-radius: 50%;
+}
 /* header=style */
 .nevber{
     display: flex;
@@ -101,4 +104,155 @@ body{
     margin-top: -457px;
     margin-left: 230px;
     
+}
+/* havit-style */
+.title{
+    text-align: center;
+}
+.img{
+    display: grid;
+    grid-template-columns: repeat(4,4fr);
+    align-items: center;
+    margin-top: 100px;
+}
+.img-1{
+    text-align: center;
+}
+.habits{
+    margin-top: 100px;
+}
+/* run-style */
+.title1{
+    font-size:3rem ;
+}
+.run{
+    display: flex;
+    justify-content: space-arounds;
+    background-color: rgba(255, 255, 255, 0.1);
+    /* justify-content: space-around; 
+    align-items: center;
+    width: 1060px;
+    height: 371px; */
+    max-width: 1440px;
+    margin: 100px auto;
+   gap: 169px;
+}
+.img6{
+    
+    /* width: 100%; */
+    border-radius: 18px;
+    height: 312px;
+    width: 366px;
+}
+.run-button{
+    padding-top: 16px;
+    padding-left: 71px;
+    padding-bottom: 16px;
+    padding-right: 71px;
+    color: white;
+    background-color:rgba(230, 83, 60, 1) ;
+    border-radius: 42px;
+    border: none;
+}
+.title-run{
+    margin-left: 56px;
+    margin-top: 40px ;
+    margin-bottom: 40px;
+}
+/* bmi-style */
+table{
+    
+ border-collapse: collapse;
+    width: 310px; 
+    height: 216px; 
+      
+      
+}
+td{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+tr{
+    
+}
+.bmifont{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+}
+.bmi-card-title{
+    color: white;
+    font-size: 2rem;
+}
+.bmi-title{
+    font-size: 3rem;
+    font-weight: bold;
+
+}
+.bmi-cul{
+    align-items: center;
+    text-align: center;
+}
+
+
+
+/* footer */
+footer{
+    background-color:rgba(255, 255, 255, 0.1) ;
+}
+.footermain{
+    display: grid;
+    grid-template-columns: repeat(3, 3fr);
+    /* justify-content: space-around; */
+    /* padding:   110px auto; */
+    gap: 120px;
+    margin-bottom: 66px;
+   
+}
+.footer-title{
+    font-size: 4rem;
+    font-style: italic;
+    font-weight: bold;
+    color:rgba(230, 83, 60, 1) ;
+}
+.footer-fi{
+    margin-left: 222px;
+}
+.footer-get{
+    margin-top: 66px;
+}
+hr{
+  max-width: 1440px;
+  
+}
+.all{
+    text-align: center;
+    padding-bottom: 35px;
+}
+
+/* responsiv */
+@media screen and (max-width:576px) {
+    .nev-card{
+        display: none;  
+    }
+    .joins{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .dis-title{
+        font-size: 4rem;
+    }
+    .img{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .footermain{
+        /* display: grid; */
+        grid-template-columns: repeat(1, 1fr);
+        gap: 00px;
+        
+        /* margin-bottom: 66px; */
+       
+    }
+    .footer-fi{
+        margin-left: auto;
+    }
 }
