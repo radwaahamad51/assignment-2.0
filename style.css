@@ -12,6 +12,16 @@ body{
 .img-round{
     border-radius: 50%;
 }
+.pading{
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left:20px ;
+    padding-right: 185px;
+    border-radius: 9px;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+}
 /* header=style */
 .nevber{
     display: flex;
@@ -40,6 +50,11 @@ body{
     background-color:rgba(230, 83, 60, 1) ;
     border: none;
     justify-content: center;
+    padding-left:20px ;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    padding-right: 20px;
+    align-items: center;
 }
 /* joins-style */
 .joins{
@@ -122,6 +137,13 @@ body{
     margin-top: 100px;
 }
 /* run-style */
+.imgs{
+    overflow: hidden;
+}
+.imgse{
+    object-fit: cover;
+    transform: scale(2.5) translate(-61px, 12%);
+}
 .title1{
     font-size:3rem ;
 }
@@ -160,6 +182,10 @@ body{
     margin-bottom: 40px;
 }
 /* bmi-style */
+.bmi{
+    background-color:rgba(255, 255, 255, 0.1);
+    margin-bottom:89px ;
+}
 table{
     
  border-collapse: collapse;
@@ -189,11 +215,52 @@ tr{
 
 }
 .bmi-cul{
-    align-items: center;
+    align-items: start;
     text-align: center;
+    margin-bottom: 88px;
 }
+.bmi-card2{
+    display: flex;
+    justify-content: space-around;
+    padding-top:49px ;
+   padding-bottom: 52px;
+}
+.form-bmi{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    grid-column: span 2;
+}
+.bmi-buton{
+    color: white;
+    padding-left: 71px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-right: 71px;
+    border-radius: 43px;
+    border: none;
+    background-color: rgba(230, 83, 60, 1);
+    margin-top: 35px;
+}
+.padding2{
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left:20px ;
+    /* padding-right: 378px; */
+    /* width: 577px; */
+    border-radius: 9px;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+}
+/* meet-style */
+.meet{
+    text-align: center;
 
-
+}
+.meets{
+    margin-top: 90px;
+}
 
 /* footer */
 footer{
@@ -251,6 +318,15 @@ hr{
         
         /* margin-bottom: 66px; */
        
+    }
+    .bmi-card2{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .pading{
+       
+        padding-left:10px ;
+        padding-right: 1px;
     }
     .footer-fi{
         margin-left: auto;
