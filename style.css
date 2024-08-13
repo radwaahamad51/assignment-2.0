@@ -2,7 +2,12 @@ body{
     background-color: black;
 }
 /* shear-style */
-
+#text{
+    /* font-family: "Work Sans", sans-serif; */
+    font-family: "Grey Qo", cursive;
+   
+    
+}
 .colorwi{
     color: white;
 }
